@@ -1,5 +1,15 @@
 # form-CadEndereco-
 
+## Descrição
+
+Este projeto consiste em um formulário de cadastro que utiliza o CEP (Código de Endereçamento Postal) para preencher automaticamente os dados de endereço do usuário. Ao inserir o CEP, os campos de endereço, cidade e estado são preenchidos automaticamente, proporcionando uma experiência mais rápida e eficiente para o usuário.
+
+## Tecnologias utilizadas 
+
+- HTML5
+- CSS3
+- JavaScript
+
 ## Principais Funções
 
 - fetch
@@ -17,9 +27,7 @@
 
 - Async: Declaração cria uma ligação de uma nova função assíncrona a um determinado nome. A palavra-chave await é permitida no corpo da função, permitindo que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo e evitando a necessidade de configurar explicitamente cadeias de promessas - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 
-
 - json: objeto namespace contém métodos estáticos para analisar valores e convertê-los em JavaScrip - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
-
 
 - focusout:dispara quando um elemento perde o foco, após o blurevento. - https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event
 
