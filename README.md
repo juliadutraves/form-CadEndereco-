@@ -18,3 +18,10 @@ Async: Declaração cria uma ligação de uma nova função assíncrona a um det
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
 json: objeto namespace contém métodos estáticos para analisar valores e convertê-los em JavaScrip
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event
+focusout:dispara quando um elemento perde o foco, após o blurevento.
+
+
+
+

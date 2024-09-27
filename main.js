@@ -53,4 +53,4 @@ async function pesquisarCep() { //Async:Declaração cria uma ligação de uma n
  
  // chama escutador para disparar ação de preenchimento
  
-document.getElementById('cep').addEventListener('focusout' , pesquisarCep);
+document.getElementById('cep').addEventListener('focusout' , pesquisarCep); //focusout:dispara quando um elemento perde o foco, após o blurevento.
