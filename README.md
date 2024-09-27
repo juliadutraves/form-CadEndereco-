@@ -4,11 +4,17 @@
 
 Este projeto consiste em um formulário de cadastro que utiliza o CEP (Código de Endereçamento Postal) para preencher automaticamente os dados de endereço do usuário. Ao inserir o CEP, os campos de endereço, cidade e estado são preenchidos automaticamente, proporcionando uma experiência mais rápida e eficiente para o usuário.
 
+## Funcionalidades
+- Campo de CEP: Usuário insere o CEP e, ao perder o foco ou pressionar Enter, os dados de endereço são preenchidos automaticamente.
+- Autocompletar: Utiliza uma API para buscar informações de endereço com base no CEP fornecido.
+- Validação: Verifica se o CEP é válido antes de realizar a busca.
+
 ## Tecnologias utilizadas 
 
 - HTML5
 - CSS3
 - JavaScript
+- API de Consulta de CEP (ViaCep) 
 
 ## Principais Funções
 
@@ -33,5 +39,6 @@ Este projeto consiste em um formulário de cadastro que utiliza o CEP (Código d
 
 - blurevento:dispara quando um elemento perde o foco. - https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event
 
+- Link do ViaCep: https://viacep.com.br/
 
 
