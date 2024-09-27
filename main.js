@@ -34,7 +34,8 @@ async function pesquisarCep() {
     const url = `http://viacep.com.br/ws/${cep.value}/json/`;
  
     if (cepValido(cep.value)) {
-        const dados = await fetch(url); // fetch:fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas., await: espera essa requisição, HTTP Pipelines: é uma técnica que permite o envio de múltiplas requisições HTTP em uma única conexão
+        const dados = await fetch(url); // fetch:fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas., await: faz a execução de uma função async pausar, para esperar pelo retorno da Promise, e resume a execução da função async quando o valor da Promise é resolvido. Ele então retorna o valor final da Promise. Se esse valor não for uma Promise, ele é convertido para uma Promise resolvida., HTTP Pipelines: é uma técnica que permite o envio de múltiplas requisições HTTP em uma única conexão
+        
         const addres = await dados.json(); //converte para json
         if (addres.hasOwnProperty('erro')) { // hasOwnProperty: retorna um booleano indiacando se objeto é verdadeiro
             alert('CEP não encontrado');
