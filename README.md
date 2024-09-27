@@ -22,6 +22,9 @@ json: objeto namespace contém métodos estáticos para analisar valores e conve
 https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event
 focusout:dispara quando um elemento perde o foco, após o blurevento.
 
+https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event
+blurevento:dispara quando um elemento perde o foco.
+
 
 
 
