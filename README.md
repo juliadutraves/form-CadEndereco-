@@ -1,5 +1,13 @@
 # form-CadEndereco-
 
+## Indice
+* [Descrição](#descrição)
+* [GIF](#gif)
+* [Funcionalidades](#funcionalidades)
+* [tecnologias utilizadas](#tecnologias-utilizadas)
+* [Principais funções](#principais-funções)
+* [Referência](#referência)
+
 ## Descrição
 
 Este projeto consiste em um formulário de cadastro que utiliza o CEP (Código de Endereçamento Postal) para preencher automaticamente os dados de endereço do usuário. Ao inserir o CEP, os campos de endereço, cidade e estado são preenchidos automaticamente, proporcionando uma experiência mais rápida e eficiente para o usuário.
