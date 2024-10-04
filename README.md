@@ -1,42 +1,43 @@
 # form-CadEndereco-
 
-## Indice
-* [Descrição](#descrição)
-* [GIF](#gif)
-* [Funcionalidades](#funcionalidades)
-* [tecnologias utilizadas](#tecnologias-utilizadas)
-* [Principais funções](#principais-funções)
-* [Referência](#referência)
+## Indice 🪼
 
-## Descrição
+* [Descrição](#descrição-🪸)
+* [GIF](#gif-🐚)
+* [Funcionalidades](#funcionalidades-🐡)
+* [tecnologias utilizadas](#tecnologias-utilizadas-🦑)
+* [Principais funções](#principais-funções-🐠)
+* [Referência](#referência-🐙)
+
+## Descrição 🪸
 
 Este projeto consiste em um formulário de cadastro que utiliza o CEP (Código de Endereçamento Postal) para preencher automaticamente os dados de endereço do usuário. Ao inserir o CEP, os campos de endereço, cidade e estado são preenchidos automaticamente, proporcionando uma experiência mais rápida e eficiente para o usuário.
 
-## GIF
+## GIF 🐚
 
 ![videocep](https://github.com/user-attachments/assets/6dfc72c4-c360-4896-b243-0da9171ab261)
 
-## Funcionalidades
+## Funcionalidades 🐡
 
 - Campo de CEP: Usuário insere o CEP e, ao perder o foco ou pressionar Enter, os dados de endereço são preenchidos automaticamente.
 - Autocompletar: Utiliza uma API para buscar informações de endereço com base no CEP fornecido.
 - Validação: Verifica se o CEP é válido antes de realizar a busca.
 
-## Tecnologias utilizadas 
+## Tecnologias utilizadas 🦑
 
 - HTML5
 - CSS3
 - JavaScript
 - API de Consulta de CEP (ViaCep) 
 
-## Principais Funções
+## Principais Funções 🐠
 
 - fetch
 - Await
 - Async
 - focusout
 
-## Referência
+## Referência 🐙
 
 - fetch:fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas.- https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch 
 
